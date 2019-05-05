@@ -90,13 +90,15 @@ public class HorizontalDateAdapter extends RecyclerView.Adapter<RecyclerView.Vie
             dateTextView.setText(values.day);
             dayOfTheWeekTextView.setText(values.dayOfWeek);
             if (mRowIndex == position) {
-                relativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mSelectedBgResourceId);
+                if (relativeLayout != null)
+                    relativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mSelectedBgResourceId);
                 dateTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mSelectedTextColorResourceId));
                 dayOfTheWeekTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mSelectedTextColorResourceId));
                 if (mOnHorizontalDateSelectListener != null)
                     mOnHorizontalDateSelectListener.onDateClick(values);
             } else {
-                relativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mBgResourceId);
+                if (relativeLayout != null)
+                    relativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mBgResourceId);
                 dateTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mTextColorResourceId));
                 dayOfTheWeekTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mTextColorResourceId));
             }
