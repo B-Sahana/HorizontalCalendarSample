@@ -75,30 +75,32 @@ public class HorizontalDateAdapter extends RecyclerView.Adapter<RecyclerView.Vie
     private class DateViewHolder extends RecyclerView.ViewHolder {
         private TextView dateTextView;
         private TextView dayOfTheWeekTextView;
-        private RelativeLayout relativeLayout;
+        private RelativeLayout childRelativeLayout;
 
 
         public DateViewHolder(View itemView) {
             super(itemView);
             dayOfTheWeekTextView = itemView.findViewById(R.id.dayOfTheWeekTextView);
             dateTextView = itemView.findViewById(R.id.dateTextView);
-            relativeLayout = itemView.findViewById(R.id.relativeLayout);
+            childRelativeLayout = itemView.findViewById(R.id.childRelativeLayout);
 
         }
 
         private void setData(final DateModel values, int position) {
+            if (childRelativeLayout == null)
+                childRelativeLayout = itemView.findViewById(R.id.childRelativeLayout);
             dateTextView.setText(values.day);
             dayOfTheWeekTextView.setText(values.dayOfWeek);
             if (mRowIndex == position) {
-                if (relativeLayout != null)
-                    relativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mSelectedBgResourceId);
+                if (childRelativeLayout != null)
+                    childRelativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mSelectedBgResourceId);
                 dateTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mSelectedTextColorResourceId));
                 dayOfTheWeekTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mSelectedTextColorResourceId));
                 if (mOnHorizontalDateSelectListener != null)
                     mOnHorizontalDateSelectListener.onDateClick(values);
             } else {
-                if (relativeLayout != null)
-                    relativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mBgResourceId);
+                if (childRelativeLayout != null)
+                    childRelativeLayout.setBackgroundResource(mCustomHorizontalCalendar.mBgResourceId);
                 dateTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mTextColorResourceId));
                 dayOfTheWeekTextView.setTextColor(ContextCompat.getColor(itemView.getContext(), mCustomHorizontalCalendar.mTextColorResourceId));
             }
