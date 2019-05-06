@@ -23,7 +23,7 @@ ext {
     siteUrl = 'https://github.com/B-Sahana/HorizontalCalendarSample'
     gitUrl = 'https://github.com/B-Sahana/HorizontalCalendarSample.git'
 
-    libraryVersion = '1.0.2'
+    libraryVersion = '1.0.3'
 
     developerId = 'B-Sahana'
     developerName = 'Sahana Bandaru'
