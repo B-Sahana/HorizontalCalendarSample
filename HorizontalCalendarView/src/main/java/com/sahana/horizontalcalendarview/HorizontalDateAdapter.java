@@ -82,13 +82,13 @@ public class HorizontalDateAdapter extends RecyclerView.Adapter<RecyclerView.Vie
             super(itemView);
             dayOfTheWeekTextView = itemView.findViewById(R.id.dayOfTheWeekTextView);
             dateTextView = itemView.findViewById(R.id.dateTextView);
-            dateRelativeLayout = itemView.findViewById(R.id.dateRelativeLayout);
+            dateRelativeLayout = itemView.findViewById(R.id.actualRelativeLayout);
 
         }
 
         private void setData(final DateModel values, int position) {
             if (dateRelativeLayout == null)
-                dateRelativeLayout = itemView.findViewById(R.id.dateRelativeLayout);
+                dateRelativeLayout = itemView.findViewById(R.id.actualRelativeLayout);
             dateTextView.setText(values.day);
             dayOfTheWeekTextView.setText(values.dayOfWeek);
             if (mRowIndex == position) {

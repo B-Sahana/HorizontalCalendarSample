@@ -23,7 +23,7 @@ ext {
     siteUrl = 'https://github.com/B-Sahana/HorizontalCalendarSample'
     gitUrl = 'https://github.com/B-Sahana/HorizontalCalendarSample.git'
 
-    libraryVersion = '1.1.0'
+    libraryVersion = '1.1.4'
 
     developerId = 'B-Sahana'
     developerName = 'Sahana Bandaru'
@@ -52,7 +52,24 @@ android {
     }
     buildToolsVersion '27.0.3'
 }
+allprojects {
+    tasks.withType(JavaCompile) {
+        options.compilerArgs << "-Xlint:unchecked" << "-Xlint:deprecation"
+        options.incremental = true
+        options.getAnnotationProcessorGeneratedSourcesDirectory()
+        options.getAnnotationProcessorPath()
+        options.getBootstrapClasspath()
+        options.getForkOptions()
+        options.getSourcepath()
+    }
+    tasks.withType(Javadoc) {
+       options.getJFlags()
+        options.getBootClasspath()
+        options.getClasspath()
+        options.getClass()
+    }
 
+}
 dependencies {
     implementation fileTree(include: ['*.jar'], dir: 'libs')
     implementation 'com.android.support:design:27.1.1'
