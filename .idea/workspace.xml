@@ -17,24 +17,21 @@
     <list default="true" id="5d74ea47-b0cb-43a8-ba09-73106db64db5" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/jarAnalysis.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/javaCompile/taskJars.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.4/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/caches/build_file_checksums.ser" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_core_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_espresso_espresso_idling_resource_2_2_2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_exposed_instrumentation_api_publish_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_rules_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_support_test_runner_0_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__javax_annotation_javax_annotation_api_1_2_jar.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HorizontalCalendarView/HorizontalCalendarView.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HorizontalCalendarView/HorizontalCalendarView.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/HorizontalCalendarView/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/HorizontalCalendarView/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HorizontalCalendarView/src/main/java/com/sahana/horizontalcalendarview/HorizontalDateAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/HorizontalCalendarView/src/main/java/com/sahana/horizontalcalendarview/HorizontalDateAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HorizontalCalendarView/src/main/res/layout/list_item_date.xml" beforeDir="false" afterPath="$PROJECT_DIR$/HorizontalCalendarView/src/main/res/layout/list_item_date.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/app.iml" beforeDir="false" afterPath="$PROJECT_DIR$/app/app.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/local.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/build/classes/" />
     <ignored path="$PROJECT_DIR$/HorizontalCalendarView/build/docs/" />
@@ -157,11 +154,53 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="true">
+      <file leaf-file-name="CustomHorizontalCalendar.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/java/com/sahana/horizontalcalendarview/CustomHorizontalCalendar.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="466">
+              <caret line="82" column="74" lean-forward="true" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#2157#2509#0" expanded="true" />
+                <element signature="e#2508#2509#0" expanded="true" />
+                <element signature="e#8776#10187#0" expanded="true" />
+                <element signature="e#10186#10187#0" expanded="true" />
+                <element signature="e#10237#11651#0" expanded="true" />
+                <element signature="e#11650#11651#0" expanded="true" />
+                <element signature="e#11847#12013#0" expanded="true" />
+                <element signature="e#12012#12013#0" expanded="true" />
+                <element signature="e#12066#12268#0" expanded="true" />
+                <element signature="e#12267#12268#0" expanded="true" />
+                <element signature="e#12318#12789#0" expanded="true" />
+                <element signature="e#12788#12789#0" expanded="true" />
+                <element signature="e#12835#13000#0" expanded="true" />
+                <element signature="e#12999#13000#0" expanded="true" />
+                <element signature="e#13054#13257#0" expanded="true" />
+                <element signature="e#13256#13257#0" expanded="true" />
+                <element signature="e#13308#13785#0" expanded="true" />
+                <element signature="e#13784#13785#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="widget_horizontal_calendar.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/res/layout/widget_horizontal_calendar.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+            </state>
+          </provider>
+          <provider editor-type-id="android-designer2">
+            <state />
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/build.gradle">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+            <state relative-caret-position="355">
+              <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
             </state>
           </provider>
         </entry>
@@ -3323,11 +3362,114 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="Scope">
+        <subPane subId="Project Source Files">
+          <expand>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+            </path>
+            <path>
+              <item name="Root" type="cbb8eebc:String" user="Root" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="HorizontalCalendarView" type="cbb8eebc:String" user="HorizontalCalendarView" />
+              <item name="src" type="cbb8eebc:String" user="src" />
+              <item name="main" type="cbb8eebc:String" user="main" />
+              <item name="java" type="cbb8eebc:String" user="java" />
+              <item name="com/sahana/horizontalcalendarview" type="cbb8eebc:String" user="com/sahana/horizontalcalendarview" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HorizontalCalendarSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HorizontalCalendarSample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HorizontalCalendarSample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="HorizontalCalendarSample" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name=".idea" type="462c0819:PsiDirectoryNode" />
+              <item name="libraries" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Scratches and Consoles" type="1a2a3e82:ScratchProjectViewPane$MyProjectNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="AndroidView">
         <subPane>
           <expand>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="arch" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="app" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
             <path>
               <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
               <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
@@ -3345,20 +3487,99 @@
             </path>
             <path>
               <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="v4" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="v7" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="android" type="cbb59c9e:AndroidPsiDirectoryNode" />
+              <item name="support" type="462c0819:PsiDirectoryNode" />
+              <item name="v13" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="horizontalcalendarview" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
+              <item name="HorizontalCalendarView" type="feadf853:AndroidModuleNode" />
+              <item name="generatedJava" type="edd41e36:AndroidSourceTypeNode" />
+              <item name="horizontalcalendarview" type="cbb59c9e:AndroidPsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="1abcf292:AndroidViewProjectNode" />
               <item name="Gradle Scripts" type="ae0cef3a:AndroidBuildScriptsGroupNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="HorizontalCalendarSample" type="58d84e3e:PackageViewProjectNode" />
+              <item name="HorizontalCalendarView" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="58d84e3e:PackageViewProjectNode" />
+              <item name="HorizontalCalendarView" type="616d4139:PackageViewModuleNode" />
+              <item name="com.sahana.horizontalcalendarview" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="58d84e3e:PackageViewProjectNode" />
+              <item name="HorizontalCalendarView" type="616d4139:PackageViewModuleNode" />
+              <item name="drawable" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="HorizontalCalendarSample" type="58d84e3e:PackageViewProjectNode" />
+              <item name="HorizontalCalendarView" type="616d4139:PackageViewModuleNode" />
+              <item name="Libraries" type="5c3f07af:PackageViewLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="android.project.structure.last.selected" value="HorizontalCalendarView" />
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
-    <property name="device.picker.selection" value="Nexus_4_API_26" />
+    <property name="device.picker.selection" value="Nexus_5_API_26" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
     <property name="show.do.not.ask.upgrade.gradle.plugin" value="3.1.4" />
   </component>
@@ -3546,26 +3767,50 @@
       <window_info anchor="right" id="Preview" order="4" weight="0.32956383" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32682925" />
       <window_info anchor="bottom" id="Logcat" order="7" weight="0.32965517" />
       <window_info id="Captures" order="2" weight="0.25" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34814218" />
-      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.2617886" />
-      <window_info anchor="right" id="Gradle" order="3" weight="0.32956383" />
+      <window_info content_ui="combo" id="Project" order="0" weight="0.34814218" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.2617886" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
+      <window_info anchor="right" id="Gradle" order="3" visible="true" weight="0.18497577" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Build Variants" order="2" side_tool="true" weight="0.32956383" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32965517" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34814218" />
+      <window_info anchor="right" id="Preview" order="4" weight="0.32956383" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Logcat" order="7" weight="0.32965517" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Palette&#9;" order="3" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info anchor="right" id="Theme Preview" order="3" />
+      <window_info anchor="bottom" id="Android Profiler" order="7" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.3284553" />
+      <window_info anchor="right" id="Device File Explorer" order="3" side_tool="true" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3284553" />
+      <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.2617886" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32843137" />
+      <window_info id="Captures" order="2" weight="0.25" />
+      <window_info anchor="right" id="Gradle" order="3" weight="0.32956383" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info id="Designer" order="2" />
     </layout>
     <layout-to-restore>
       <window_info anchor="right" id="Device File Explorer" order="0" side_tool="true" />
@@ -3579,11 +3824,11 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="5" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="6" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="12" />
-      <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
+      <window_info active="true" anchor="bottom" id="Build" order="4" visible="true" weight="0.32991454" />
       <window_info anchor="bottom" id="Logcat" order="0" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
-      <window_info id="Capture Tool" order="4" />
+      <window_info id="Favorites" order="0" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info id="Build Variants" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
@@ -3593,26 +3838,16 @@
       <window_info anchor="bottom" id="Inspection" order="11" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="10" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="7" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Build" order="4" visible="true" weight="0.32991454" />
+      <window_info id="Capture Tool" order="4" />
       <window_info anchor="bottom" id="Message" order="6" />
       <window_info anchor="bottom" id="Terminal" order="1" />
-      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info anchor="bottom" id="Android Profiler" order="5" show_stripe_button="false" />
     </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/res/layout/widget_horizontal_calendar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="825">
-          <caret line="55" selection-start-line="55" selection-end-line="55" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -3826,16 +4061,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/res/layout/widget_horizontal_calendar.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
-        </state>
-      </provider>
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/res/drawable/rect_dark_gray.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -3863,13 +4088,6 @@
     <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/res/values/strings.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/java/com/sahana/horizontalcalendarview/CustomHorizontalCalendar.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="251">
-          <caret line="80" selection-start-line="80" selection-end-line="80" />
-        </state>
       </provider>
     </entry>
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.android.support/recyclerview-v7/27.1.1/ad225a74247e675db0b05ea4f8b17202acbb7f9d/recyclerview-v7-27.1.1-sources.jar!/android/support/v7/widget/RecyclerView.java">
@@ -3942,10 +4160,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/build/generated/source/buildConfig/debug/com/sahana/horizontalcalendarview/BuildConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
+        <state relative-caret-position="355">
+          <caret line="60" column="60" selection-start-line="60" selection-start-column="60" selection-end-line="60" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/res/layout/widget_horizontal_calendar.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="47" column="35" selection-start-line="47" selection-start-column="35" selection-end-line="47" selection-end-column="35" />
+        </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/HorizontalCalendarView/src/main/java/com/sahana/horizontalcalendarview/CustomHorizontalCalendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="82" column="74" lean-forward="true" selection-start-line="82" selection-start-column="74" selection-end-line="82" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2157#2509#0" expanded="true" />
+            <element signature="e#2508#2509#0" expanded="true" />
+            <element signature="e#8776#10187#0" expanded="true" />
+            <element signature="e#10186#10187#0" expanded="true" />
+            <element signature="e#10237#11651#0" expanded="true" />
+            <element signature="e#11650#11651#0" expanded="true" />
+            <element signature="e#11847#12013#0" expanded="true" />
+            <element signature="e#12012#12013#0" expanded="true" />
+            <element signature="e#12066#12268#0" expanded="true" />
+            <element signature="e#12267#12268#0" expanded="true" />
+            <element signature="e#12318#12789#0" expanded="true" />
+            <element signature="e#12788#12789#0" expanded="true" />
+            <element signature="e#12835#13000#0" expanded="true" />
+            <element signature="e#12999#13000#0" expanded="true" />
+            <element signature="e#13054#13257#0" expanded="true" />
+            <element signature="e#13256#13257#0" expanded="true" />
+            <element signature="e#13308#13785#0" expanded="true" />
+            <element signature="e#13784#13785#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
