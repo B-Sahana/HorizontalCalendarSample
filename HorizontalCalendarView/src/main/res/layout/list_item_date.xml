@@ -5,7 +5,7 @@
 
     <RelativeLayout
         android:id="@+id/relativeLayout"
-        android:layout_width="54dp"
+        android:layout_width="50dp"
         android:layout_height="50dp"
         android:visibility="visible">
 
@@ -27,7 +27,7 @@
             android:layout_below="@id/dateTextView"
             android:layout_centerHorizontal="true"
             android:gravity="center"
-            android:text="Thurs"
+            android:text="fri"
             android:textColor="@color/dark_gray"
             android:textSize="12sp" />
     </RelativeLayout>
