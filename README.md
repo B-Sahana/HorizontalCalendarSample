@@ -1,16 +1,14 @@
-# HorizontalCalendarSample
-<a href='https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView?source=watch' alt='Get automatic notifications about new "HorizontalCalendarView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a><a href='https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView?source=watch' alt='Get automatic notifications about new "HorizontalCalendarView" versions'><img src='https://www.bintray.com/docs/images/bintray_badge_color.png'></a>
+# Android Horizontal Calendar
+Migrated to Androidx and upgraded to latest sdks
 
-[ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/_latestVersion) 
-[ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.2) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.2/link)
-[ ![Download](https://api.bintray.com/packages/sahanab/HorizontalCalendarView/HorizontalCalendarView/images/download.svg?version=1.0.1) ](https://bintray.com/sahanab/HorizontalCalendarView/HorizontalCalendarView/1.0.1/link)
-
-HorizontalCalendarSample is an Android library for creating horizontal view for Calendar
+Android Horizontal Calendar with Recyclerview is an easy library to customize horizontal calendar view.
 
 ![](screenshots/cs1.gif)
 # Features
+- Supporting multiple language
+- Customizable left and right icons color.
 - Customizable text color and size ,background color,number of days to display.
-- minSdkVersion 14
+- minSdkVersion 21
 
 ## Installation
 
@@ -20,18 +18,17 @@ Latest version of the library can be found on Maven Central.
 Open your ```build.gradle``` Then, include the library as dependency:
 
 ```    
-implementation 'com.android.support:recyclerview-v7:{yourVersion}'
-implementation 'com.sahana.horizontalcalendarview:HorizontalCalendarView:1.1.4'
+implementation 'io.github.b-sahana:horizontalcalendar:1.2'
 ```
 
 # For Maven users
 Add this dependency to your ```pom.xml```:
 ```
 <dependency>
-  <groupId>com.sahana.horizontalcalendarview</groupId>
-  <artifactId>HorizontalCalendarView</artifactId>
-  <version>1.1.4</version>
-  <type>pom</type>
+  <groupId>io.github.b-sahana</groupId>
+  <artifactId>horizontalcalendar</artifactId>
+  <version>1.2</version>
+  <type>aar</type>
 </dependency>
 ```
 ## Usage
@@ -40,7 +37,7 @@ Please see the ```/HorizontalCalendarSample-app``` app for a more detailed code 
 
 1.Add the ```HorizontalCalendar``` view to the layout you want to show.
 ```
-<com.sahana.horizontalcalendarview.CustomHorizontalCalendar
+<com.sahana.horizontalcalendar.HorizontalCalendar
         android:id="@+id/customHorizontal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -74,11 +71,14 @@ Please see the ```/HorizontalCalendarSample-app``` app for a more detailed code 
 - ```setLabelFontStyle``` - to set title/label font(typeface).
 
 - ```setMonthFontStyle``` - to ```Month and Year``` font(typeface).
+- ```setIconsColor``` - to set left and right icons color.
+- ```setLanguage``` - By default set to default local language. If you want only in english then select English from list.
+
 
 3.To listen to date events you need to set a listener:
 - ```setOnDateSelectListener``` - by calling this.
 ```
-        mCustomHorizontalCalendar.setOnDateSelectListener(new OnHorizontalDateSelectListener() {
+        mHorizontalCalendar.setOnDateSelectListener(new OnHorizontalDateSelectListener() {
             @Override
             public void onDateClick(DateModel dateModel) {
                 Log.d("date", dateModel != null ? dateModel.month + dateModel.day + dateModel.dayOfWeek + dateModel.year : "");
@@ -90,7 +90,7 @@ Please see the ```/HorizontalCalendarSample-app``` app for a more detailed code 
 4. If you want to set label dynamically  call below method:
 - ```setLabel(String labelName)```
 
- ```mCustomHorizontalCalendar.setLabel("Your Label Name");```
+ ```mHorizontalCalendar.setLabel("Your Label Name");```
  
  
 # License
