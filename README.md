@@ -105,10 +105,10 @@ Please see the ```/HorizontalCalendarSample-app``` or ```Horizontal-Calendar-Sam
 3.To listen to selected date events you need to set a listener:
 - ```setOnDateSelectListener``` - by calling this.
 ```
-        mHorizontalCalendar.setOnDateSelectListener(new OnHorizontalDateSelectListener() {
+          mHorizontalCalendar.setOnDateSelectListener(new OnDateSelectListener() {
             @Override
             public void onSelect(DateModel dateModel) {
-                Log.d("date", dateModel != null ? dateModel.month + dateModel.day + dateModel.dayOfWeek + dateModel.year+"" : "");
+                mDateTextView.setText(dateModel != null ? dateModel.day + " " + dateModel.dayOfWeek + " " + dateModel.month + "," + dateModel.year : "");
 
             }
         });
