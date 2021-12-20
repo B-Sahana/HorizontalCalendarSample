@@ -3,6 +3,12 @@ Migrated to Androidx and upgraded to latest sdks
 
 Android Horizontal Calendar with Recyclerview is an easy library to customize horizontal calendar view with selecting center item.
 
+# Features
+- Supporting multiple languages calendar dynamically.
+- Customizable left and right icons color.
+- Customizable text color and size ,background color and font, number of days to display.
+- minSdkVersion 21
+- 
 ## Default
 ![](screenshots/cs1.gif)
 ![](screenshots/default.gif)
@@ -12,12 +18,6 @@ Android Horizontal Calendar with Recyclerview is an easy library to customize ho
 
 ## Multi Language support
 ![](screenshots/language.gif)
-
-# Features
-- Supporting multiple languages calendar dynamically.
-- Customizable left and right icons color.
-- Customizable text color and size ,background color and font, number of days to display.
-- minSdkVersion 21
 
 ## Installation
 
