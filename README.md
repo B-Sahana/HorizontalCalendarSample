@@ -1,7 +1,7 @@
 # Android Horizontal Calendar
 Migrated to Androidx and upgraded to latest sdks
 
-Android Horizontal Calendar with Recyclerview is an easy library to customize horizontal calendar view.
+Android Horizontal Calendar with Recyclerview is an easy library to customize horizontal calendar view with selecting center item on scroll.
 
 ![](screenshots/cs1.gif)
 # Features
